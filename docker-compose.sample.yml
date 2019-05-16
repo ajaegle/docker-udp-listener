@@ -1,6 +1,6 @@
 udp:
   container_name: my-udp-listener
-  image: mendhak/udp-listener
+  image: ajaegle/udp-listener
   environment:
     - UDPPORT=4001
   ports:
